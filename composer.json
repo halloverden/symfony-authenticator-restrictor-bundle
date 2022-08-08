@@ -1,0 +1,23 @@
+{
+    "name": "halloverden/symfony-authenticator-restrictor-bundle",
+    "description": "Symfony bundle for restricting authenticator(s) to specific route",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HalloVerden\\SymfonyAuthenticatorRestrictorBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tom Roar Furunes",
+            "email": "tom.roar@halloverden.no"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.1",
+        "symfony/framework-bundle": "^5.4|^6.0"
+    }
+}
