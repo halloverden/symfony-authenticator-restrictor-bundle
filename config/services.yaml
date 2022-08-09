@@ -1,0 +1,3 @@
+services:
+  hallo_verden.authenticator_restrictor.authenticator_attribute_provider:
+    class: HalloVerden\SymfonyAuthenticatorRestrictorBundle\Provider\AuthenticatorsProvider
