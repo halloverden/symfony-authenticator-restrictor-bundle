@@ -86,7 +86,7 @@ class DecoratedAuthenticatorManager implements AuthenticatorManagerInterface, Us
    */
   private function isSupportedAuthenticator(AuthenticatorInterface $authenticator, array $supportedAuthenticators): bool {
     if ($authenticator instanceof NamedAuthenticatorInterface) {
-      return \in_array($supportedAuthenticators, $authenticator->getAuthenticatorName(), true);
+      return \in_array($authenticator->getAuthenticatorName(), $supportedAuthenticators, true);
     }
 
     foreach ($supportedAuthenticators as $supportedAuthenticator) {
