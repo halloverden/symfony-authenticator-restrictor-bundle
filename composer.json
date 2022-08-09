@@ -8,6 +8,11 @@
             "HalloVerden\\SymfonyAuthenticatorRestrictorBundle\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "HalloVerden\\SymfonyAuthenticatorRestrictorBundle\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Tom Roar Furunes",
@@ -20,5 +25,8 @@
         "php": ">=8.1",
         "symfony/framework-bundle": "^5.4|^6.0",
         "symfony/security-bundle": "^5.4|^6.0"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^6.1"
     }
 }
