@@ -1,32 +1,36 @@
 {
-    "name": "halloverden/symfony-authenticator-restrictor-bundle",
-    "description": "Symfony bundle for restricting authenticator(s) to specific route",
-    "type": "symfony-bundle",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "HalloVerden\\SymfonyAuthenticatorRestrictorBundle\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "HalloVerden\\SymfonyAuthenticatorRestrictorBundle\\Tests\\": "tests/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Tom Roar Furunes",
-            "email": "tom.roar@halloverden.no"
-        }
-    ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "require": {
-        "php": ">=8.1",
-        "symfony/framework-bundle": "^5.4|^6.0",
-        "symfony/security-bundle": "^5.4|^6.0"
-    },
-    "require-dev": {
-        "symfony/phpunit-bridge": "^6.1"
+  "name": "halloverden/symfony-authenticator-restrictor-bundle",
+  "description": "Symfony bundle for restricting authenticator(s) to specific route",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "HalloVerden\\SymfonyAuthenticatorRestrictorBundle\\": "src/"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "HalloVerden\\SymfonyAuthenticatorRestrictorBundle\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Tom Roar Furunes",
+      "email": "tom.roar@halloverden.no"
+    },
+    {
+      "name": "Erich Json Fosse",
+      "email": "erich@halloverden.no"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=8.1",
+    "symfony/framework-bundle": "^5.4|^6.4|^7.0",
+    "symfony/security-bundle": "^5.4|^6.4|^7.0"
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "^7.0"
+  }
 }
